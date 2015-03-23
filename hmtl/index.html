@@ -60,7 +60,7 @@
             <p>This is my work section</p>
           </section>
           <section id='skills' class='top-border'>
-            <p>This is my skills section</p>
+            <h2>Skills</h2>
             <p>PHP</p>
             <div class='progress'>
               <div class='progress-bar progress-bar-danger' aria-valuenow='70' aria-valuemin='0' aria-valuemax='100' style='width: 70%'>
@@ -94,10 +94,27 @@
           </section>
           <section id='contact' class='top-border'>
             <p>This is my contact section</p>
+            <section id="secondary">
+             <h3>Contact details</h3>
+             <form action='contact_form.php' method='post'>
+               <label for='name'>Name</label>
+               <input id='name' name='name' type='text' required>
+               <label for='email'>E-mail</label>
+               <input id='email' name='email' type='text' required>
+               <label for='phone'>Phone</label>
+               <input id='phone' name='phone' type='int' required>
+               <label for='message'>Your message</label>
+               <input id='message' name='message' type='text' required>
+             </form>
+             <ul class="contact-info">
+               <li class="phone"><a href="tel:802-373-5202">802-373-5202</a></li>
+               <li class="mail"><a href="mailto:kyle.giardchase@gmail.com">kyle.giardchase@gmail.com</a></li>
+               <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=kyle_giardchase">@kyle_giardchase</a></li>
+             </ul>
+           </section>
           </section>
           <footer>
             <p>Kyle Giard-Chase <i class="fa fa-copyright"></i> 2015</p>
-
           </footer>
         </div>
 </body>
