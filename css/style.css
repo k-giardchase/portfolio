@@ -5,7 +5,12 @@
               url(../img/tree_ring.jpg) no-repeat center;
   background-size: cover;
   color: #fff;
+  margin-top: 0;
 
+}
+
+.navbar {
+  margin-bottom: 0;
 }
 
 .social-media li a i {
