@@ -16,3 +16,7 @@
 .double-arrow {
   /*padding-top: 30px;*/
 }
+
+.top-border {
+  border-top: 1px solid #ccc;
+}
