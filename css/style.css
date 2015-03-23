@@ -1,0 +1,11 @@
+.jumbotron {
+  background: linear-gradient(#FFF, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #FFF url(../img/tree_ring.jpg) no-repeat center;
+  background-size: cover;
+
+}
+
+.double-arrow {
+  padding-top: 30px;
+}
