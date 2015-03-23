@@ -1,3 +1,5 @@
+
+/* HEADER */
 .jumbotron {
   background:
             linear-gradient(#d3d3d3, transparent 90%),
@@ -20,6 +22,7 @@
 }
 .navbar {
   margin-bottom: 0;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .social-media li a i {
@@ -27,10 +30,11 @@
   color: #fff;
 }
 
-.double-arrow {
-  /*padding-top: 30px;*/
-}
+/* BODY */
 
+.container {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
 .top-border {
   border-top: 1px solid #ccc;
 }
