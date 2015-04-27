@@ -5,13 +5,16 @@ Kyle Giard-Chase
 March 22 2015
 
 ##Description
-This site displays my portfolio and information about me.
+A website to display my portfolio projects, about me, and contact information.
 
 
 ##Use and Editing
-To edit the site, download the source code and open it in your text editor. <br />
-    *Note: If you are copying any of the code to your own directories, you may need to install Composer
-    in your root directory.*
+To view the site, <br>
+1. Navigate to http://kylegiardchase.com in your web browser.<br><br>
+To edit the site,<br>
+1. Clone the repository git clone https://github.com/k-giardchase/portfolio.git <br>
+2. Change directory into the folder `cd portfolio`
+3. Open index.html in your web browser.
 
 ##Copyright (c) 2015 Kyle Giard-Chase
 Permission is hereby granted, free of charge, to any person obtaining a copy
