@@ -12,8 +12,8 @@ A website to display my portfolio projects, about me, and contact information.
 To view the site, <br>
 1. Navigate to http://kylegiardchase.com in your web browser.<br><br>
 To edit the site,<br>
-1. Clone the repository `git clone https://github.com/k-giardchase/portfolio.git`
-2. Change directory into the folder `cd portfolio`
+1. Clone the repository `git clone https://github.com/k-giardchase/portfolio.git`<br>
+2. Change directory into the folder `cd portfolio`<br>
 3. Open index.html in your web browser.
 
 ##Copyright (c) 2015 Kyle Giard-Chase
