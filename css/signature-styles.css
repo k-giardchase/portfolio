@@ -1,0 +1,94 @@
+.stroke-k-one {
+  stroke-linecap: null;
+  stroke-linejoin: null;
+  stroke-dasharray: 170;
+  stroke-width: 5;
+  stroke: #000000;
+  fill: none;
+  -webkit-animation: write1 2s ease-in-out;
+}
+
+.stroke-k-two {
+  stroke-linecap: null;
+  stroke-linejoin: null;
+  stroke-dasharray: 218;
+  stroke-width: 5;
+  stroke: #000000;
+  fill: none;
+  -webkit-animation: write2 2s ease-in-out;
+}
+
+.stroke-yle {
+  stroke-linecap: null;
+  stroke-linejoin: null;
+  stroke-dasharray: 668;
+  stroke-width: 5;
+  stroke: #000000;
+  fill: none;
+  -webkit-animation: write3 2s ease-in-out;
+}
+
+.stroke-underline {
+  stroke-linecap: null;
+  stroke-linejoin: null;
+  stroke-dasharray: 290;
+  stroke-width: 5;
+  stroke: #000000;
+  fill: none;
+  -webkit-animation: write4 2s ease-in-out;
+}
+
+@-webkit-keyframes write1 {
+    0% {
+        stroke-dashoffset: 170;
+    }
+    20% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@-webkit-keyframes write2 {
+    0%, 20% {
+        stroke-dashoffset: 218;
+    }
+    40% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@-webkit-keyframes write3 {
+    0%, 40% {
+        stroke-dashoffset: 668;
+    }
+    90% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@-webkit-keyframes write4 {
+    0%, 90% {
+        stroke-dashoffset: 290;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.twitter-bird {
+    background-image: url("../img/twitter-bird-sprite.png");
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+
+.contain-bird {
+  background: url("../img/twitter-bird-sprite.png") left center;
+  height: 150px;
+  width: 150px;
+  -webkit-animation: fly 4s steps(4) infinite;
+}
+
+@-webkit-keyframes fly {
+  from { background-position: 0 0; }
+    to { background-position: -450px 0; }
+}
