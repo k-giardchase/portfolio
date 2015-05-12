@@ -7,7 +7,7 @@
   stroke-width: 5;
   stroke: #000000;
   fill: none;
-  -webkit-animation: write1 2s ease-in-out; /*must use vendor prefix */
+  -webkit-animation: write1 2s ease-in-out  infinite; /*must use vendor prefix */
 }
 
 .stroke-k-two {
@@ -17,7 +17,7 @@
   stroke-width: 5;
   stroke: #000000;
   fill: none;
-  -webkit-animation: write2 2s ease-in-out;
+  -webkit-animation: write2 2s ease-in-out infinite;
 }
 
 .stroke-yle {
@@ -27,17 +27,17 @@
   stroke-width: 5;
   stroke: #000000;
   fill: none;
-  -webkit-animation: write3 2s ease-in-out;
+  -webkit-animation: write3 2s ease-in-out infinite;
 }
 
 .stroke-underline {
   stroke-linecap: null;
   stroke-linejoin: null;
-  stroke-dasharray: 290;
+  stroke-dasharray: 292;
   stroke-width: 5;
   stroke: #000000;
   fill: none;
-  -webkit-animation: write4 2s ease-in-out;
+  -webkit-animation: write4 2s ease-in-out infinite;
 }
 
 @-webkit-keyframes write1 {
@@ -69,7 +69,7 @@
 
 @-webkit-keyframes write4 {
     0%, 90% {
-        stroke-dashoffset: 290;
+        stroke-dashoffset: 292;
     }
     100% {
         stroke-dashoffset: 0;
