@@ -1,11 +1,13 @@
+/* Signature animation */
+
 .stroke-k-one {
   stroke-linecap: null;
   stroke-linejoin: null;
-  stroke-dasharray: 170;
+  stroke-dasharray: 170; /*length of line */
   stroke-width: 5;
   stroke: #000000;
   fill: none;
-  -webkit-animation: write1 2s ease-in-out;
+  -webkit-animation: write1 2s ease-in-out; /*must use vendor prefix */
 }
 
 .stroke-k-two {
@@ -74,6 +76,8 @@
     }
 }
 
+
+/* Flying bird animation */
 .twitter-bird {
     background-image: url("../img/twitter-bird-sprite.png");
     display: inline-block;
