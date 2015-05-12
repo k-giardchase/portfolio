@@ -158,9 +158,9 @@
           <p class='lead'>Feel free to contact me with any questions you might have.</p>
         </div>
         <div class='col-md-5'>
-          <div class='col-md-12 col-sm-6 col-xs-12'>
+          <!-- <div class='col-md-12 col-sm-6 col-xs-12'>
             <a class='contact' href='tel:802-373-5202'><i class='fa fa-phone fa-3x square-image'></i>802-373-5202</a>
-          </div>
+          </div> -->
           <div class='col-md-12 col-sm-6 col-xs-12'>
             <a class='contact' href='mailto:kgiardch@gmail.com'><i class='fa fa-envelope-o fa-3x square-image'></i>kgiardch@gmail.com</a>
           </div>
@@ -172,6 +172,66 @@
               <i class='fa fa-linkedin fa-3x square-image'></i>kgiardchase</a>
           </div>
         </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6 col-md-offset-3 well">
+              <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                  <fieldset>
+                  <div class="form-group">
+                      <div class="col-md-12">
+                          <label for="txt_name" class="control-label">Name</label>
+                      </div>
+                      <div class="col-md-12">
+                        <input class="form-control" name="txt_name" placeholder="Your Full Name" type="text" value="<?php if($error) echo $name; ?>" />
+                        <span class="text-danger"><?php if (isset($name_error)) echo $name_error; ?></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <label for="txt_email" class="control-label">Email ID</label>
+                    </div>
+                    <div class="col-md-12">
+                        <input class="form-control" name="txt_email" placeholder="Your Email ID" type="text" value="<?php if($error) echo $fromemail; ?>" />
+                        <span class="text-danger"><?php if (isset($fromemail_error)) echo $fromemail_error; ?></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <label for="txt_subject" class="control-label">Subject</label>
+                    </div>
+                    <div class="col-md-12">
+                        <input class="form-control" name="txt_subject" placeholder="Your Subject" type="text" value="<?php if($error) echo $subject; ?>" />
+                        <span class="text-danger"><?php if (isset($subject_error)) echo $subject_error; ?></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <label for="txt_msg" class="control-label">Message</label>
+                    </div>
+                    <div class="col-md-12">
+                        <textarea class="form-control" name="txt_msg" rows="4" placeholder="Your Message"><?php if($error) echo $message; ?></textarea>
+                        <span class="text-danger"><?php if (isset($message_error)) echo $message_error; ?></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-info">Send</button>
+                    <!-- <div class="col-md-12">
+                        <input name="submit" type="submit" class="btn btn-primary" value="Send" />
+                    </div> -->
+                </div>
+            </fieldset>
+            </form>
+            <?php if (isset($alertmsg)) { echo $alertmsg; } ?>
+        </div>
+    </div>
+</div>
+                  </div>
+              </form>
+          </div>
       </div>
       </section>
       <footer class='top-border'>
